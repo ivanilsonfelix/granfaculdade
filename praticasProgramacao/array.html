@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+<script>
+
+    const carros = ['BMW', 'Audi', 'Ferrari', 'Mercedes']
+
+    
+
+    carros.push('Volvo') // Adicionar um elemento no final do array
+    
+
+    carros.unshift('Chevrolet') // Adicionar um elemento no início do array
+    
+
+    carros.pop() // Remove o último elemento do array
+   
+
+    carros.shift() // Remove o primeiro elemento do array
+
+    const carro = carros.pop() // Remove o último elemento e retorna ele
+    console.table(carro)
+    console.table(carros)
+
+    carros.splice(1, 2) // Remove 2 elementos a partir da posição 1
+    console.table(carros)
+
+    carros.splice(1, 0, 'Lamborghini', 'Porsche') // Adiciona elementos a partir da posição 1 sem remover nenhum
+    console.table(carros)
+
+    carros.splice(2, 1, 'Jaguar') // Remove 1 elemento na posição 2 e adiciona 'Jaguar' no lugar
+    console.table(carros)   
+
+    carros.sort() // Ordena o array em ordem alfabética
+    console.table(carros)       
+    
+    
+
+
+
+   /* for(let elemento of carros){
+       console.log(elemento)
+    }*/
+
+   /* for(let i=0; i<4; i++) {
+        console.log(carros[i])  
+
+    }
+
+    console.log(carros[2]) // Acessar o elemento na posição 2*/
+
+    
+
+
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Multidimensionais</title>
+    <script>
+
+        const  nomes = [
+            'orion',
+            'ana',      
+            'bia',
+            'josé'
+        ]
+
+        const idades = [
+            30,
+            25,
+            28,
+            35,
+            18
+        ]   
+
+        const notas = [
+            [8, 7, 9], 
+            [6, 9, 8], 
+            [7, 8, [1,2,3]]
+            
+
+        ]
+       /* console.log(nomes[1]) // Acessa o segundo nome (ana)
+        console.log(idades[2]) // Acessa a terceira idade (28)
+        console.table(notas[0][2]) // Acessa a terceira nota do primeiro
+        console.table(notas[2][2][1]) // Acessa o segundo elemento do array dentro do array de notas do terceiro aluno (2)  
+        */
+
+        const pessoa = {nome: 'Carlos', idade: '32', endereço: 'abc'}
+
+        const pessoas = [
+            {nome: 'Maria', idade: '28', endereço: 'Rua A'},
+            {nome: 'João', idade: '35', endereço: 'Rua B'},
+            {nome: 'Ana', idade: '22', endereço: 'Rua C'},
+            {nome: 'Pedro', idade: '30', endereço: 'Rua D'}
+        ] 
+        
+        console.log(notas[1][1]) // Acessa a segunda nota do segundo aluno (9)
+        console.log(pessoas[2].nome) // Acessa o nome da terceira pessoa (Ana)
+        console.log(pessoas[0]['endereço']) // Acessa o endereço da primeira pessoa (Rua A)
+
+
+
+
+   
+    
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
